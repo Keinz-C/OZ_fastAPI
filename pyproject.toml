@@ -31,6 +31,12 @@ plugins = [
     "pydantic.mypy"
 ]
 
+
+
+[tool.aerich]
+tortoise_orm = "app.configs.database_settings.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

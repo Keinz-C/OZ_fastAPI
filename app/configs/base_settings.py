@@ -30,5 +30,5 @@ class Settings(BaseSettings):
     DB_HOST: str = "127.0.0.1"  # localhost랑 같은 의미
     DB_PORT: int = 3306
     DB_USER: str = "root"  # mysql 기본 계정
-    DB_PASSWORD: str = "1234"
-    DB_DB: str = "oz_festapi_1"
+    DB_PASSWORD: str = "1685"
+    DB_DB: str = "oz_festapi_5"
