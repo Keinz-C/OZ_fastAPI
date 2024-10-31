@@ -34,5 +34,5 @@ class Article(
         # (참조 대신 type annotation을 처리하는 특수한 방법으로 선회하게 된다.)
 
         # 이처럼 Article을 쿼리하는 모든 함수를 Article 클래스 안에 두면 응집성이 높아진다.
-        # 응집성이 높다 = Article과 ㅗ간련된 모든 것이 Article 한 곳에 모여있다.
+        # 응집성이 높다 = Article과 관련된 모든 것이 Article 한 곳에 모여있어, 찾기가 쉬워진다.
         return await cls.get(id=id)
