@@ -9,7 +9,7 @@ TORTOISE_APP_MODELS = [
 TORTOISE_ORM = {
     "connections": {
         "default": {
-            "engine": "tortoise.backends.mysql",    # 어떤 driver를 사용할 거이냐
+            "engine": "tortoise.backends.mysql",  # 어떤 driver를 사용할 거이냐
             # orm은 database랑 직접 소통하는 것이 아닌 driver을 통해서 소통한다.
             # 대표적인 postgres용 driver : psycopg2
             # mysql + tortoise랑 자주 같이 사요하는 driver가 asyncmy
